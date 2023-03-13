@@ -1,0 +1,9 @@
+{
+	"name": "ADF-Test-Rick-1-rolling-timer",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2937fd32-1423-4041-8ecf-a9b490c2d94e",
+		"tenantId": "9b415222-16dc-4250-bd60-8a375591609a"
+	}
+}
