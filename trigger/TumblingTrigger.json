@@ -3,7 +3,7 @@
 	"properties": {
 		"description": "Tumbling Trigger",
 		"annotations": [],
-		"runtimeState": "Stopped",
+		"runtimeState": "Started",
 		"pipeline": {
 			"pipelineReference": {
 				"referenceName": "pipelineTestRollingSchedule",
