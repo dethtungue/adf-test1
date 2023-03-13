@@ -1,0 +1,13 @@
+{
+	"name": "AzBlobCSVTest1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Test for ADF",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=saea2ricktest1;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDI1OTU1MERFLThDMzEtNERBOS1COUE4LTlFNjM2NTM4RUVFQl8yNzJlOGZjYy0yY2I0LTRhZGItYjJkOC1jNWQxMWQ3YWEzOTIiDQp9"
+		}
+	}
+}
