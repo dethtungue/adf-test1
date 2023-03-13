@@ -1,0 +1,82 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"description": "Sample CSV file",
+		"linkedServiceName": {
+			"referenceName": "AzBlobCSVTest1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "InstacartInventoryPricing-20230309102045_truncated_.csv",
+				"folderPath": "stage",
+				"container": "csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "storeId",
+				"type": "String"
+			},
+			{
+				"name": "upcId",
+				"type": "String"
+			},
+			{
+				"name": "upcType",
+				"type": "String"
+			},
+			{
+				"name": "itemId",
+				"type": "String"
+			},
+			{
+				"name": "altUnitOfMeasure",
+				"type": "String"
+			},
+			{
+				"name": "price",
+				"type": "String"
+			},
+			{
+				"name": "approxPricePerEach",
+				"type": "String"
+			},
+			{
+				"name": "approxWeightPerEach",
+				"type": "String"
+			},
+			{
+				"name": "availability",
+				"type": "String"
+			},
+			{
+				"name": "sale_price",
+				"type": "String"
+			},
+			{
+				"name": "sale_start_at",
+				"type": "String"
+			},
+			{
+				"name": "sale_end_at",
+				"type": "String"
+			},
+			{
+				"name": "locations",
+				"type": "String"
+			},
+			{
+				"name": "p_id",
+				"type": "String"
+			}
+		]
+	}
+}
