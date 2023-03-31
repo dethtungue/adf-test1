@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://kv-rick-alpha-tango-1.vault.azure.net/"
+			"baseUrl": "https://kv-rick-tango-2.vault.azure.net/"
 		}
 	}
 }
